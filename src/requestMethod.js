@@ -6,7 +6,7 @@ let BASE_URL;
 if (url.hostname == "localhost") {
   BASE_URL = url.protocol + "//" + url.hostname + ":5000/api"; // (or whatever)
 } else {
-  BASE_URL = url.origin + "/api";
+  BASE_URL = "https://mern-commerce-unikmu.vercel.app/api";
 }
 
 export { BASE_URL };
