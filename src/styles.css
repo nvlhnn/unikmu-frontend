@@ -1,0 +1,30 @@
+.swiperThumb {
+    /* height: 20%; */
+    box-sizing: border-box;
+    /* padding: 10px 0; */
+}
+
+.swiperThumb .swiper-slide {
+    /* width: 25%; */
+    /* height: 100%; */
+    opacity: 0.4;
+
+}
+
+.swiperThumb .swiper-slide-thumb-active {
+    opacity: 1;
+    border-radius: 2px;
+    border-color: black;
+}
+
+.swiper-wrapper {
+    width: 100%;
+}
+
+
+.nav-item .nav-active {
+    color: aqua;
+    opacity: 0;
+
+
+}
